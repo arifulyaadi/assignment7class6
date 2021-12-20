@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*************************
+    global css
+**************************/
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+button:hover{
+	background-color: #17b9cfb8;
+}
+/*************************
+    HEADER
+**************************/
+
+header{
+	width: 100%;
+	padding: 15px 0px;
+	position: absolute;
+
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+.right ul{
+	display: inline-block;
+	margin: 15px 0px;
+}
+.right ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.left h1{
+	font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -5px;
+    color: white;
+}
+.left p{
+	letter-spacing: 4px;
+    font-size: 16px;
+    margin-left: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.right ul li a{
+	margin:0px 15px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+.head-btn{
+	padding: 12px 18px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-left: 33px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/*************************
+    banner section
+**************************/
+
+.banner{
+	width: 100%;
+	background-image: linear-gradient(#2e2c2c59,#00000024),url(../img/one.png);
+	background-color: dimgray;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	height: 100vh;
+}
+.bnr-cnt{
+	text-align: center;
+}
+.bnr-cnt h3{
+	font-size: 32px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+.line{
+	height: 2px;
+    background-color: #FB1E54;
+    width: 50px;
+    margin: 10px auto;
+}
+.bnr-cnt h1{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 70px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    margin: 30px 0px;
+}
+.bnr-cnt button{
+	padding: 12px 18px;
+    font-size: 14px;
+    background-color: #FB1E54;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-left: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+.bnr-cnt button:hover{
+	background-color:#bb2f51;
+}
+
+.bnr-cnt{
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*************************
+    testimonial section
+**************************/
+
+.testimonial{
+	width: 100%;
+	background-color: #F4F5F9;
+	padding: 80px 0px;
+}
+.tsty-cnt{
+	text-align: center;
+}
+.tsty-cnt p{
+	font-size: 25px;
+    font-style: italic;
+    margin-bottom: 48px;
+    color: #586675;
+}
+.tsty-cnt h2{
+    
+    font-size: 24px;
+    color: #96A2AA;
+}
+
+/*************************
+    thied section
+**************************/
+.third{
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.third-cnt{
+	text-align: center;
+
+}
+.third-cnt h1{
+	color: #201F1F;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*************************
+    forth section
+**************************/
+.forth{
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.forth-nav{
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+}
+.forth-cnt img{
+	border-radius: 3px;
+	z-index: 9999;
+}
+.forth-cnt h3{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.forth-cnt p{
+	color: #353535;
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.forth-cnt a{
+	color: #FB2764;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px
+}
+
+.img-shadow{
+	position: relative;
+}
+.shadow{
+	position: absolute;
+	height: 99%;
+    width: 83%;
+    background-color: #ededed;
+    top: 11px;
+    left: 59px;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+/*************************
+    fifth section
+**************************/
+
+.fifth{
+	width: 100%;
+	height: 90vh;
+	background-image: url(../img/four.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+.fifth-nav{
+	display: flex;
+	justify-content: space-between;
+}
+.fifth-left{
+	flex-basis: 50%;
+}
+.fifth-left h1{
+	font-size: 41px;
+	font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 234px;
+    margin-bottom: 20px;
+}
+.line-now{
+	height: 2px;
+    background-color: #FB1E54;
+    width: 50px;
+    margin: 10px 0px;
+}
+.fifth-left p{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.fifth-left a{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px
+}
+
+/*************************
+    sixth section
+**************************/
+
+.sixth{
+	width: 100%;
+	margin-bottom: 55px;
+}
+.sixth-nav{
+	display:flex;
+	justify-content: space-between;
+}
+
+.sixth-cnt-two{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.sixth-cnt {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.sixth-cnt h1{
+	text-align: left;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+.sixth-cnt p{
+	text-align: left;
+	color: #353535;
+	font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.4
+}
+.sixth-cnt div{
+	text-align: left;
+}
+.sixth-cnt div button{
+	padding: 12px 18px;
+    font-size: 10px;
+    background-color: #FB1E54;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.sixth-cnt div button:hover{
+	background-color:#bb2f51;
+}
+.sisth-line{
+	height: 2px;
+    background-color: #FB1E54;
+    width: 40px;
+    margin: 10px 0px;
+
+}
+.img-cnt .img{
+	margin: 5px;
+	border-radius: 4px;
+}
+
+.img-cnt .two{
+	width: 97%;
+}
+.img-cnt .three{
+	width: 97%;
+}
+
+/*************************
+    footer section
+**************************/
+footer{
+	width: 100%;
+	background-color: #191919;
+	margin-bottom: 20px;
+	padding: 40px;
+}
+.footer{
+	text-align: center;
+	color: white;
+}
+.footer p{
+	color: gray;
+	letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.last{
+	margin-bottom: 20px;
+}
